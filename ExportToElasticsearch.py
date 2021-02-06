@@ -4,17 +4,8 @@ Export the results of an inference process to the Elastic Stack
 
 __author__ = """
 Cameron Joyce
-#### Charleston, SC
 """
 
-"""
-Steps To Run:
-1. Configure elasticsearch index (name, port, etc.) in config.yaml and config.py
-2. Start Docker
-3. Launch docker-compose file (Run: docker-compose up)
-4. Run program (i.e. minimaltest.ipynb)
-5. Data will be indexed at elasticsearch input
-"""
 __all__ = []
 
 # **************************************************
